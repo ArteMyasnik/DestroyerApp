@@ -21,11 +21,14 @@ import java.util.Scanner;
 public class MainApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Set the width size: ");
-        double sizeWidth = scanner.nextDouble();
-        System.out.print("Set the height size: ");
-        double sizeHeight = scanner.nextDouble();
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Set the width size: ");
+//        double sizeWidth = scanner.nextDouble();
+//        System.out.print("Set the height size: ");
+//        double sizeHeight = scanner.nextDouble();
+
+        double sizeWidth = 480;
+        double sizeHeight = 360;
 
         System.out.println("App was opened");
 //        FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("hello-view.fxml"));
